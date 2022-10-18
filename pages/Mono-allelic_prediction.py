@@ -3,6 +3,8 @@ import epinb
 
 st.markdown("# Mono-allelic prediction")
 
+st.markdown("This module is for predict peptides presented to a single HLA allele.")
+
 col1, col2 = st.columns(2)
 with col1:
     training_data = st.text_area("Training peptides")
