@@ -26,7 +26,7 @@ with col1:
         res = model.predict_details(test_data)
         with col2:
             st.download_button("Download results", res.to_csv(), "epiNB-predictions.csv", disabled=False)
-        st.dataframe(res)
+        # st.dataframe(res)
     else:
         with col2:
             st.download_button("Download results", "", disabled=True)
