@@ -1,0 +1,10 @@
+[project]
+name = "epinb"
+version = "0.1.0"
+dependencies = [
+    "scipy", "numpy", "pandas", 
+    'importlib-metadata; python_version>="3.6"',
+]
+
+[tool.setuptools.packages.find]
+include = ["epinb"] 
