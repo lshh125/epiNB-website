@@ -30,4 +30,15 @@ with col1:
     else:
         with col2:
             st.download_button("Download results", "", disabled=True)
+
+with st.expander("Help"):
+    st.markdown("1. Copy your training peptides into the left text box.")
+    st.markdown("2. Copy your candidate peptides to be classified into the right text box.")
+    st.markdown("3. Click the \"Run\" button.")
+    st.markdown("4. Wait till the \"Download results\" button become valid, and click it to download the results.")
+    
+with st.expander("Want some sample input to try out?"):
+    st.markdown("We used data for A0203 as an example here.")
+    st.markdown("You can download sample [training](https://raw.githubusercontent.com/lshh125/epiNB-website/main/sample-data/training.txt) and [testing](https://raw.githubusercontent.com/lshh125/epiNB-website/main/sample-data/test.txt) data. The first 5 testing data are positive examples, and the last 5 testing data are negative examples.")
+    st.markdown("Simply follow the \"Help\" info to get the results.")
     
