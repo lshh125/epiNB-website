@@ -14,5 +14,5 @@ st.markdown("© 2022 Ken Chen lab. All rights reserved.")
 # st.markdown("- Documentation: https://epinb.readthedocs.io")
 
 st.markdown("## Useful links")
-st.markdown("Our training data are curated from: http://hlathena.tools/")
+st.markdown("Our training data for the purposed of library-based prediction are curated from: http://hlathena.tools/")
 
